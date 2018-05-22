@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RSBlurAlert_Example' do
+  pod 'RSBlurAlert', :path => '../'
+
+  target 'RSBlurAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
