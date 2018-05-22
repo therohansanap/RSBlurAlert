@@ -1,0 +1,16 @@
+PODS:
+  - RSBlurAlert (0.1.0)
+
+DEPENDENCIES:
+  - RSBlurAlert (from `../`)
+
+EXTERNAL SOURCES:
+  RSBlurAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSBlurAlert: 22623848c85d3f222b7c6b2d5326eba7c1e14e30
+
+PODFILE CHECKSUM: 555998516e721c7abcc1f383c8b37a740eb534ec
+
+COCOAPODS: 1.5.2

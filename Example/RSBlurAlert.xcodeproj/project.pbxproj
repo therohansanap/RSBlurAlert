@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A6CB064E3D01DD78C982F66 /* RSBlurAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RSBlurAlert.podspec; path = ../RSBlurAlert.podspec; sourceTree = "<group>"; };
+		2A6CB064E3D01DD78C982F66 /* RSBlurAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSBlurAlert.podspec; path = ../RSBlurAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		30A78344B53AA07761FC85D2 /* Pods-RSBlurAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBlurAlert_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBlurAlert_Example/Pods-RSBlurAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RSBlurAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSBlurAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8C85663150400A7AB4009ECE /* Pods-RSBlurAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBlurAlert_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A0AF11A6D621EC2FC741D6F3 /* Pods_RSBlurAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSBlurAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3714EAA2E49AA9506FFD2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA3714EAA2E49AA9506FFD2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CE1659225D61266147191516 /* Pods_RSBlurAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSBlurAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3EBCC2400DD43DCB348744 /* Pods-RSBlurAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBlurAlert_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F14A1D37C196EF30C8BDA256 /* Pods-RSBlurAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBlurAlert_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBlurAlert_Example/Pods-RSBlurAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F95F5FE68333678F909CB378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F95F5FE68333678F909CB378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

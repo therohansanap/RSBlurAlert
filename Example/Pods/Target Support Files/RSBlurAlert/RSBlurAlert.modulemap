@@ -1,0 +1,6 @@
+framework module RSBlurAlert {
+  umbrella header "RSBlurAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
