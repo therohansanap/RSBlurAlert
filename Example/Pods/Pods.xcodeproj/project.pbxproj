@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		504C0E148B44F9B97C7AF4E57E30120A /* RSBlurAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD802994D23326C659A71E4A4759D0E /* RSBlurAlert-dummy.m */; };
+		2A8321484409C7181AB4BDC2AAC5C80C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		3283D8D69DEC9B5594B4D7096BD193F6 /* RSBlurAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1738DA38BF0947D859B504B2CAA615B /* RSBlurAlert-dummy.m */; };
 		6C3BF7C6B8D1273624B3EB7EB17641BF /* Pods-RSBlurAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCF6E3FE03A48332D9FC1FAACA9EC58 /* Pods-RSBlurAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9783AA07884C2B3CEEC9D04057A52B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		99DDEBF703DF38BF942C7F2C118E0A2F /* Pods-RSBlurAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7CEE154F7154952AAD9B99476BCF1 /* Pods-RSBlurAlert_Example-dummy.m */; };
-		B8BCE57A649A5F7DC24E1D86A320AE52 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35FE758812DA594BC500B8E9D69343 /* ReplaceMe.swift */; };
-		BF13AA047FB33C34096A71BC18489FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C2147FAF4FE5F5A5EB72AD5730473B5 /* RSBlurAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81312025516A12E0C35C41950912D4D4 /* RSBlurAlertController.swift */; };
+		AD4493974D62E659F349FFCC2BD30F4E /* RSBlurAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = DB607A0EBE1B140A6B1741CF885266BA /* RSBlurAlertController.xib */; };
+		BF13AA047FB33C34096A71BC18489FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		C3F2ACF6644C2EF42AF75478173258F3 /* Pods-RSBlurAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DD69F79477D47ACBA70C71FB14988B /* Pods-RSBlurAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D35A8F55F9E484EB1DB39477EBA697D9 /* RSBlurAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16733BFA2BC058036B6D158F9455F263 /* RSBlurAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB2144D6EB5C259D9734936BB237361C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E1FDB2ACCFE1561C4C6AD47207A823CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D35A8F55F9E484EB1DB39477EBA697D9 /* RSBlurAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A377BB6F4729E737D83A554985F302 /* RSBlurAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FDB2ACCFE1561C4C6AD47207A823CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		FDA1C7CEA3C7135E7B9A988AB59D2960 /* Pods-RSBlurAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 531023833CDE4A42DAE2EE7A501D4E76 /* Pods-RSBlurAlert_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -39,38 +41,40 @@
 /* Begin PBXFileReference section */
 		067D913EE57E8542AE1CFFCBFDA146BB /* Pods-RSBlurAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSBlurAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		10A184AE60FA4FAA27F06BFDF44D5BA6 /* Pods-RSBlurAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBlurAlert_Tests-resources.sh"; sourceTree = "<group>"; };
-		11A2589F14B75A2D8F7013BAFC5BCE3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12CFB2829EA3F6BCB89E22BAD4ACA9B2 /* Pods-RSBlurAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBlurAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
-		16733BFA2BC058036B6D158F9455F263 /* RSBlurAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBlurAlert-umbrella.h"; sourceTree = "<group>"; };
 		19CF02DC46F548A27D348BAE7EB5D13D /* Pods-RSBlurAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBlurAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2E89D51FD3D0C822D9FC798C57C93758 /* Pods-RSBlurAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSBlurAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F64C62E49C725887ABC9601BAAF5683 /* RSBlurAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSBlurAlert.framework; path = RSBlurAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F64C62E49C725887ABC9601BAAF5683 /* RSBlurAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSBlurAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6B3F50C7F88A029C9189C7C6F36071 /* Pods-RSBlurAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBlurAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3DD945BD1C9A1EC2CD44CB803AFC905E /* Pods_RSBlurAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSBlurAlert_Tests.framework; path = "Pods-RSBlurAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD945BD1C9A1EC2CD44CB803AFC905E /* Pods_RSBlurAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSBlurAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D73189E391E0EA2E6639CC5D90A930 /* Pods-RSBlurAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBlurAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		531023833CDE4A42DAE2EE7A501D4E76 /* Pods-RSBlurAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSBlurAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		5F55BA6E471EACF2B2FC1D3276B7675C /* RSBlurAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RSBlurAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5FA7CEE154F7154952AAD9B99476BCF1 /* Pods-RSBlurAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSBlurAlert_Example-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6AD802994D23326C659A71E4A4759D0E /* RSBlurAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSBlurAlert-dummy.m"; sourceTree = "<group>"; };
-		6B2682564EC5847DC5AECDB6E2AFCE2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		63E14CAF35FBBE787009A14BDA31448A /* RSBlurAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSBlurAlert.xcconfig; sourceTree = "<group>"; };
+		64EB94DB6D03F0DDF1850445E09A70C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70112C722FD541CA42411267A1A745BA /* RSBlurAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBlurAlert-prefix.pch"; sourceTree = "<group>"; };
+		791AA643F04B2DFE639398E9849BE22E /* RSBlurAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSBlurAlert.modulemap; sourceTree = "<group>"; };
 		7956BCB5BD0B72DDDE34F8AB8152C0FA /* Pods-RSBlurAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBlurAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7CC9E1D8401B79E01DAED5512F4446CB /* Pods_RSBlurAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSBlurAlert_Example.framework; path = "Pods-RSBlurAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85C765B19A4A5D2A21E18FC6BE498C5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7CC9E1D8401B79E01DAED5512F4446CB /* Pods_RSBlurAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSBlurAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81312025516A12E0C35C41950912D4D4 /* RSBlurAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSBlurAlertController.swift; path = RSBlurAlert/Classes/RSBlurAlertController.swift; sourceTree = "<group>"; };
 		8BCF6E3FE03A48332D9FC1FAACA9EC58 /* Pods-RSBlurAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSBlurAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8E15158C35A34B6E022EE7E32AE82FAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB88CE005AED4E35EE0856745F67C07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A41AD8382935EBA65DD267D4AE6B99B7 /* Pods-RSBlurAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSBlurAlert_Example.modulemap"; sourceTree = "<group>"; };
 		A5864C097FAAD2546C888EB2B0A09F94 /* Pods-RSBlurAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSBlurAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC9C64E2C24CBFE46E8F95CAFB3254F9 /* Pods-RSBlurAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSBlurAlert_Tests.modulemap"; sourceTree = "<group>"; };
-		B0847A2A54B8495921F90CD5D7C77D45 /* RSBlurAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSBlurAlert.modulemap; sourceTree = "<group>"; };
-		B3DB145BD396AB0FDB95B847F92EE11C /* RSBlurAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSBlurAlert.xcconfig; sourceTree = "<group>"; };
+		AE4E2B66D5E9941F76A6CE42C83BD388 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B463909459E003A951E7D399D39C4B0A /* Pods-RSBlurAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBlurAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C8DD69F79477D47ACBA70C71FB14988B /* Pods-RSBlurAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSBlurAlert_Example-umbrella.h"; sourceTree = "<group>"; };
-		DAE3D174F874FA59AAF60DC1F5F9FF59 /* RSBlurAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RSBlurAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7AE853667B02D61AD60180D901DFE18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB607A0EBE1B140A6B1741CF885266BA /* RSBlurAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RSBlurAlertController.xib; path = RSBlurAlert/Classes/RSBlurAlertController.xib; sourceTree = "<group>"; };
+		E1738DA38BF0947D859B504B2CAA615B /* RSBlurAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSBlurAlert-dummy.m"; sourceTree = "<group>"; };
 		E1B7CC238084BFDF1A2BC68286163803 /* Pods-RSBlurAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBlurAlert_Example-resources.sh"; sourceTree = "<group>"; };
-		EA293F419FBB0B09953998AFE4C543F5 /* RSBlurAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBlurAlert-prefix.pch"; sourceTree = "<group>"; };
-		EA35FE758812DA594BC500B8E9D69343 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RSBlurAlert/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F1A377BB6F4729E737D83A554985F302 /* RSBlurAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBlurAlert-umbrella.h"; sourceTree = "<group>"; };
 		F28CED912C197BEBF1151423276BAED7 /* Pods-RSBlurAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSBlurAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,37 +95,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45EC4CA3533CF3F39865FF073278B793 /* Frameworks */ = {
+		768B0B02A3A76AC0B764EC8F0D407364 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB2144D6EB5C259D9734936BB237361C /* Foundation.framework in Frameworks */,
+				9783AA07884C2B3CEEC9D04057A52B88 /* Foundation.framework in Frameworks */,
+				2A8321484409C7181AB4BDC2AAC5C80C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E99F6D722D30B90F88DE89AEFAAF992 /* Support Files */ = {
+		2EF9B0E27A7D935C302114EEC3F50D5E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				11A2589F14B75A2D8F7013BAFC5BCE3C /* Info.plist */,
-				B0847A2A54B8495921F90CD5D7C77D45 /* RSBlurAlert.modulemap */,
-				B3DB145BD396AB0FDB95B847F92EE11C /* RSBlurAlert.xcconfig */,
-				6AD802994D23326C659A71E4A4759D0E /* RSBlurAlert-dummy.m */,
-				EA293F419FBB0B09953998AFE4C543F5 /* RSBlurAlert-prefix.pch */,
-				16733BFA2BC058036B6D158F9455F263 /* RSBlurAlert-umbrella.h */,
+				AE4E2B66D5E9941F76A6CE42C83BD388 /* LICENSE */,
+				D7AE853667B02D61AD60180D901DFE18 /* README.md */,
+				5F55BA6E471EACF2B2FC1D3276B7675C /* RSBlurAlert.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RSBlurAlert";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		3047C6575106A9F1DD42A6BD9274D4E6 /* Development Pods */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98C92498FB1B93C83395C44568B0D571 /* RSBlurAlert */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		577D4AAB8B8191FF95CAD1049D2316E1 /* Targets Support Files */ = {
@@ -133,14 +143,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		622F7BBEB97ED3D263778C769FFEC05C /* Pod */ = {
+		67820F1BE063F1A5382EA1773F3A4EBD /* RSBlurAlert */ = {
 			isa = PBXGroup;
 			children = (
-				85C765B19A4A5D2A21E18FC6BE498C5E /* LICENSE */,
-				6B2682564EC5847DC5AECDB6E2AFCE2E /* README.md */,
-				DAE3D174F874FA59AAF60DC1F5F9FF59 /* RSBlurAlert.podspec */,
+				81312025516A12E0C35C41950912D4D4 /* RSBlurAlertController.swift */,
+				DB607A0EBE1B140A6B1741CF885266BA /* RSBlurAlertController.xib */,
+				2EF9B0E27A7D935C302114EEC3F50D5E /* Pod */,
+				6E80127956DE437F6A1D93F92693C6F2 /* Support Files */,
 			);
-			name = Pod;
+			name = RSBlurAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E80127956DE437F6A1D93F92693C6F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64EB94DB6D03F0DDF1850445E09A70C0 /* Info.plist */,
+				791AA643F04B2DFE639398E9849BE22E /* RSBlurAlert.modulemap */,
+				63E14CAF35FBBE787009A14BDA31448A /* RSBlurAlert.xcconfig */,
+				E1738DA38BF0947D859B504B2CAA615B /* RSBlurAlert-dummy.m */,
+				70112C722FD541CA42411267A1A745BA /* RSBlurAlert-prefix.pch */,
+				F1A377BB6F4729E737D83A554985F302 /* RSBlurAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSBlurAlert";
 			sourceTree = "<group>";
 		};
 		70380DCF1F10B9EAD5C397D93F879E96 /* Pods-RSBlurAlert_Example */ = {
@@ -165,22 +191,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3047C6575106A9F1DD42A6BD9274D4E6 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				98B5D0A70886C22BDDBE29287A36E2EE /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				A430C5C9C2642D0E107D9D65C31A11D0 /* Products */,
 				577D4AAB8B8191FF95CAD1049D2316E1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		98C92498FB1B93C83395C44568B0D571 /* RSBlurAlert */ = {
+		98B5D0A70886C22BDDBE29287A36E2EE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA35FE758812DA594BC500B8E9D69343 /* ReplaceMe.swift */,
-				622F7BBEB97ED3D263778C769FFEC05C /* Pod */,
-				1E99F6D722D30B90F88DE89AEFAAF992 /* Support Files */,
+				67820F1BE063F1A5382EA1773F3A4EBD /* RSBlurAlert */,
 			);
-			name = RSBlurAlert;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A430C5C9C2642D0E107D9D65C31A11D0 /* Products */ = {
@@ -191,14 +214,6 @@
 				2F64C62E49C725887ABC9601BAAF5683 /* RSBlurAlert.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BF1F381C8BBFDF67BE443474CD646B28 /* Pods-RSBlurAlert_Tests */ = {
@@ -217,14 +232,6 @@
 			);
 			name = "Pods-RSBlurAlert_Tests";
 			path = "Target Support Files/Pods-RSBlurAlert_Tests";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +286,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B33D0D2DC7F598E44B6B9E956DDACFF /* Build configuration list for PBXNativeTarget "RSBlurAlert" */;
 			buildPhases = (
-				71853318B8B1649839AF9AD5B08AF663 /* Sources */,
-				45EC4CA3533CF3F39865FF073278B793 /* Frameworks */,
+				8B2A451C92945DBE3E8DCE222F46DA5B /* Sources */,
+				768B0B02A3A76AC0B764EC8F0D407364 /* Frameworks */,
 				681F154BB196B70B9529DB9DEFD016DF /* Headers */,
 			);
 			buildRules = (
@@ -355,12 +362,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71853318B8B1649839AF9AD5B08AF663 /* Sources */ = {
+		8B2A451C92945DBE3E8DCE222F46DA5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BCE57A649A5F7DC24E1D86A320AE52 /* ReplaceMe.swift in Sources */,
-				504C0E148B44F9B97C7AF4E57E30120A /* RSBlurAlert-dummy.m in Sources */,
+				3283D8D69DEC9B5594B4D7096BD193F6 /* RSBlurAlert-dummy.m in Sources */,
+				9C2147FAF4FE5F5A5EB72AD5730473B5 /* RSBlurAlertController.swift in Sources */,
+				AD4493974D62E659F349FFCC2BD30F4E /* RSBlurAlertController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,10 +390,47 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		45708E348B49739B86C775F0AA09FB8E /* Release */ = {
+		1D681926331C1D223CF374EDD0D60A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3DB145BD396AB0FDB95B847F92EE11C /* RSBlurAlert.xcconfig */;
+			baseConfigurationReference = 7956BCB5BD0B72DDDE34F8AB8152C0FA /* Pods-RSBlurAlert_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSBlurAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSBlurAlert_Example/Pods-RSBlurAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5481C04298B850FA4C66B61989B97D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E14CAF35FBBE787009A14BDA31448A /* RSBlurAlert.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,7 +443,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RSBlurAlert/RSBlurAlert-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RSBlurAlert/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RSBlurAlert/RSBlurAlert.modulemap";
 				PRODUCT_MODULE_NAME = RSBlurAlert;
@@ -406,49 +451,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6DE9AB77C5DBE7EDD66990B485BB0822 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43D73189E391E0EA2E6639CC5D90A930 /* Pods-RSBlurAlert_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -501,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,41 +522,7 @@
 			};
 			name = Debug;
 		};
-		96E9701ABDA01885F0F44E994C33DA3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B463909459E003A951E7D399D39C4B0A /* Pods-RSBlurAlert_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,19 +572,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		BA002989568DA51ABA01615073C4D200 /* Debug */ = {
+		5A143D2B4EFAB37590684AB5EA5D0D96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7956BCB5BD0B72DDDE34F8AB8152C0FA /* Pods-RSBlurAlert_Example.debug.xcconfig */;
+			baseConfigurationReference = B463909459E003A951E7D399D39C4B0A /* Pods-RSBlurAlert_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -617,12 +596,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RSBlurAlert_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSBlurAlert_Example/Pods-RSBlurAlert_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -630,19 +609,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D973329CC72F9923271DF68354B973AF /* Release */ = {
+		9EFFF6D30A39503F86F3D521CD01263C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D6B3F50C7F88A029C9189C7C6F36071 /* Pods-RSBlurAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -654,7 +633,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RSBlurAlert_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RSBlurAlert_Example/Pods-RSBlurAlert_Example.modulemap";
@@ -673,10 +652,45 @@
 			};
 			name = Release;
 		};
-		DAFFC064C1403850D73CE2FC2709749B /* Debug */ = {
+		EC88420F0C4FB5AAF45BE207A36D96D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3DB145BD396AB0FDB95B847F92EE11C /* RSBlurAlert.xcconfig */;
+			baseConfigurationReference = 43D73189E391E0EA2E6639CC5D90A930 /* Pods-RSBlurAlert_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7641C25E73A0203706C2DC97FA79218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E14CAF35FBBE787009A14BDA31448A /* RSBlurAlert.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -689,7 +703,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RSBlurAlert/RSBlurAlert-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RSBlurAlert/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RSBlurAlert/RSBlurAlert.modulemap";
 				PRODUCT_MODULE_NAME = RSBlurAlert;
@@ -697,13 +711,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -711,8 +726,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,8 +735,8 @@
 		6BA6B16C1112BF26149436C951974882 /* Build configuration list for PBXNativeTarget "Pods-RSBlurAlert_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DE9AB77C5DBE7EDD66990B485BB0822 /* Debug */,
-				96E9701ABDA01885F0F44E994C33DA3D /* Release */,
+				EC88420F0C4FB5AAF45BE207A36D96D1 /* Debug */,
+				5A143D2B4EFAB37590684AB5EA5D0D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -729,8 +744,8 @@
 		8B33D0D2DC7F598E44B6B9E956DDACFF /* Build configuration list for PBXNativeTarget "RSBlurAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAFFC064C1403850D73CE2FC2709749B /* Debug */,
-				45708E348B49739B86C775F0AA09FB8E /* Release */,
+				5481C04298B850FA4C66B61989B97D36 /* Debug */,
+				F7641C25E73A0203706C2DC97FA79218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -738,8 +753,8 @@
 		EA78A49D95018CF11A06A2AD56DF1EBF /* Build configuration list for PBXNativeTarget "Pods-RSBlurAlert_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA002989568DA51ABA01615073C4D200 /* Debug */,
-				D973329CC72F9923271DF68354B973AF /* Release */,
+				1D681926331C1D223CF374EDD0D60A9F /* Debug */,
+				9EFFF6D30A39503F86F3D521CD01263C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

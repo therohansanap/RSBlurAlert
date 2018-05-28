@@ -9,26 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'RSBlurAlert'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RSBlurAlert.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A iOS system like alert view.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A iOS system like alert view which has blur background, an alert image along with a short text describing the alert.
                        DESC
 
   s.homepage         = 'https://github.com/therohansanap/RSBlurAlert'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'therohansanap' => 'rohan.sanap@revofit.com' }
+  s.author           = { 'therohansanap' => 'sanaprohan10@gmail.com' }
   s.source           = { :git => 'https://github.com/therohansanap/RSBlurAlert.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/therohansanap'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'RSBlurAlert/Classes/**/*'
   
@@ -37,6 +31,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,22 +1,24 @@
 {
   "name": "RSBlurAlert",
   "version": "0.1.0",
-  "summary": "A short description of RSBlurAlert.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A iOS system like alert view.",
+  "description": "A iOS system like alert view which has blur background, an alert image along with a short text describing the alert.",
   "homepage": "https://github.com/therohansanap/RSBlurAlert",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "therohansanap": "rohan.sanap@revofit.com"
+    "therohansanap": "sanaprohan10@gmail.com"
   },
   "source": {
     "git": "https://github.com/therohansanap/RSBlurAlert.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/therohansanap",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "RSBlurAlert/Classes/**/*"
+  "source_files": "RSBlurAlert/Classes/**/*",
+  "frameworks": "UIKit"
 }
