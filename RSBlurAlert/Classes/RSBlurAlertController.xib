@@ -26,10 +26,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q1f-EH-TJ9">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1f-EH-TJ9">
                                 <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="bRW-Yf-iKH">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bRW-Yf-iKH">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
@@ -38,6 +37,12 @@
                                 </vibrancyEffect>
                             </visualEffectView>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="q1f-EH-TJ9" firstAttribute="leading" secondItem="Buo-zq-CAl" secondAttribute="leading" id="0PA-fR-mBW"/>
+                            <constraint firstAttribute="trailing" secondItem="q1f-EH-TJ9" secondAttribute="trailing" id="4UA-Zw-PSm"/>
+                            <constraint firstAttribute="bottom" secondItem="q1f-EH-TJ9" secondAttribute="bottom" id="DNM-7s-ehI"/>
+                            <constraint firstItem="q1f-EH-TJ9" firstAttribute="top" secondItem="Buo-zq-CAl" secondAttribute="top" id="rmf-hu-37W"/>
+                        </constraints>
                     </view>
                     <constraints>
                         <constraint firstAttribute="width" constant="200" id="EsA-eq-i9K"/>
