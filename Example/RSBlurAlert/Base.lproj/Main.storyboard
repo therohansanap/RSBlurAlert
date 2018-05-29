@@ -24,12 +24,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-22-Tfo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQD-Kl-PD7">
+                                <rect key="frame" x="20" y="607" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="clC-gu-anL"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Show Alert"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showAlertTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p5q-pP-7wq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="XQD-Kl-PD7" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="4ef-lI-vSq"/>
                             <constraint firstItem="SKe-22-Tfo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Gyi-xE-HGN"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="XQD-Kl-PD7" secondAttribute="bottom" constant="10" id="MGg-jO-nYm"/>
                             <constraint firstAttribute="bottom" secondItem="SKe-22-Tfo" secondAttribute="bottom" id="XgL-f7-Uek"/>
+                            <constraint firstAttribute="trailing" secondItem="XQD-Kl-PD7" secondAttribute="trailing" constant="20" id="jiB-5g-0GL"/>
                             <constraint firstAttribute="trailing" secondItem="SKe-22-Tfo" secondAttribute="trailing" id="tvU-Ol-Ky9"/>
+                            <constraint firstItem="XQD-Kl-PD7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="w5U-V5-mIt"/>
                             <constraint firstItem="SKe-22-Tfo" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="xkD-xB-V6T"/>
                         </constraints>
                     </view>

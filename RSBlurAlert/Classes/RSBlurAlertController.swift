@@ -9,8 +9,16 @@ import UIKit
 
 public class RSBlurAlertController: UIViewController {
 
+    @IBOutlet private weak var titleLabel: UILabel!
+    @IBOutlet weak var detailLabel: UILabel!
+    
+    public var alertTitle: String? = nil
+    public var alertDetail: String? = nil
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.text = alertTitle ?? "Alert"
+        detailLabel.text = alertDetail
     }
     
     public init() {

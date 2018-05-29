@@ -18,9 +18,16 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let blurController = RSBlurAlertController()
-        present(blurController, animated: true, completion: nil)
+        
+
+        
     }
 
+    @IBAction func showAlertTapped(_ sender: UIButton) {
+        let blurAlert = RSBlurAlertController()
+        blurAlert.alertTitle = "Attention"
+        blurAlert.alertDetail = "Describe the alert to the user using this so that user gets some idea."
+        present(blurAlert, animated: false, completion: nil)
+    }
 }
 
