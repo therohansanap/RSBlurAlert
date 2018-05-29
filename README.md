@@ -22,7 +22,7 @@ pod 'RSBlurAlert'
 
 ## Author
 
-therohansanap, rohan.sanap@revofit.com
+Rohan Sanap, sanaprohan10@gmail.com
 
 ## License
 
