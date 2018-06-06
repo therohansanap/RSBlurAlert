@@ -19,6 +19,14 @@ public class RSBlurAlertController: UIViewController {
         super.viewDidLoad()
         titleLabel.text = alertTitle ?? "Alert"
         detailLabel.text = alertDetail
+        
+        Timer.scheduledTimer(withTimeInterval: 1.5, repeats: false) { [weak self] (timer) in
+            UIView.animate(withDuration: 0.5, animations: {
+                self?.view.alpha = 0
+            }, completion: { (completion) in
+                self?.dismiss(animated: false, completion: nil)
+            })
+        }
     }
     
     public init() {

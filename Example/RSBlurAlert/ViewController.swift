@@ -17,10 +17,6 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        
-
-        
     }
 
     @IBAction func showAlertTapped(_ sender: UIButton) {
@@ -28,6 +24,6 @@ class ViewController: UIViewController {
         blurAlert.alertTitle = "Attention"
         blurAlert.alertDetail = "Describe the alert to the user using this so that user gets some idea."
         present(blurAlert, animated: false, completion: nil)
-    }
+   }
 }
 
