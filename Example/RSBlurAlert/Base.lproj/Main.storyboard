@@ -44,7 +44,6 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="XQD-Kl-PD7" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="4ef-lI-vSq"/>
                             <constraint firstItem="SKe-22-Tfo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Gyi-xE-HGN"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="XQD-Kl-PD7" secondAttribute="bottom" constant="10" id="MGg-jO-nYm"/>
                             <constraint firstAttribute="bottom" secondItem="SKe-22-Tfo" secondAttribute="bottom" id="XgL-f7-Uek"/>
