@@ -27,7 +27,8 @@ Rohan Sanap, sanaprohan10@gmail.com
 ### Credit where it's due
 
 I started learning to make reusable frameworks and how to distribute them via Cocoapods. I stumbled upon following article - https://medium.com/flawless-app-stories/getting-started-with-reusable-frameworks-for-ios-development-f00d74827d11
-This article is where my Idea came from. I decided to implement the same UI but with completely different approach and with alot of customisation capabilites and hence RSBlurAlert was born
+
+This article is where my Idea came from. I decided to implement the same UI but with completely different approach and with alot of customization capabilites and hence RSBlurAlert was born
 
 ## License
 
