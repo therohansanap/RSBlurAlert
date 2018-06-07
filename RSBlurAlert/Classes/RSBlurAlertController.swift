@@ -7,7 +7,7 @@
 
 import UIKit
 
-public enum BlurAlertType {
+public enum RSBlurAlertType {
     case light, dark
 }
 
@@ -23,7 +23,8 @@ public class RSBlurAlertController: UIViewController {
     public var alertTitle: String?
     public var alertDetail: String?
     public var alertImage: UIImage?
-    public var alertType = BlurAlertType.light
+    public var alertType = RSBlurAlertType.light
+    public var alertVisibleTime: TimeInterval?
     
     private let lightImageColor = UIColor.black.withAlphaComponent(0.75)
     private let darkImageColor = UIColor.white.withAlphaComponent(0.75)
@@ -64,7 +65,7 @@ public class RSBlurAlertController: UIViewController {
         
         setUIAccordingToAlertType()
         
-        Timer.scheduledTimer(withTimeInterval: 1.5, repeats: false) { [weak self] (timer) in
+        Timer.scheduledTimer(withTimeInterval: alertVisibleTime ?? 1.5, repeats: false) { [weak self] (timer) in
             UIView.animate(withDuration: 0.5, animations: {
                 self?.view.alpha = 0
             }, completion: { (completion) in
