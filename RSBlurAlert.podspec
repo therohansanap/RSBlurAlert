@@ -26,9 +26,9 @@ A iOS system like alert view which has blur background, an alert image along wit
 
   s.source_files = 'RSBlurAlert/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'RSBlurAlert' => ['RSBlurAlert/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'RSBlurAlert' => ['RSBlurAlert/Assets/**/*.{xcassets}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

@@ -20,5 +20,10 @@
     "ios": "10.0"
   },
   "source_files": "RSBlurAlert/Classes/**/*",
+  "resource_bundles": {
+    "RSBlurAlert": [
+      "RSBlurAlert/Assets/**/*.{xcassets}"
+    ]
+  },
   "frameworks": "UIKit"
 }

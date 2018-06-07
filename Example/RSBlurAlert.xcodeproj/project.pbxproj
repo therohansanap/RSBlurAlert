@@ -14,7 +14,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B163F13B20BC23CD00303BB0 /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B163F13A20BC23CD00303BB0 /* wallpaper.jpg */; };
 		D2B4D31635D4CF06E46FFE1B /* Pods_RSBlurAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AF11A6D621EC2FC741D6F3 /* Pods_RSBlurAlert_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		8C85663150400A7AB4009ECE /* Pods-RSBlurAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBlurAlert_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A0AF11A6D621EC2FC741D6F3 /* Pods_RSBlurAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSBlurAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3714EAA2E49AA9506FFD2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B163F13A20BC23CD00303BB0 /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
 		CE1659225D61266147191516 /* Pods_RSBlurAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSBlurAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3EBCC2400DD43DCB348744 /* Pods-RSBlurAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBlurAlert_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBlurAlert_Tests/Pods-RSBlurAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F14A1D37C196EF30C8BDA256 /* Pods-RSBlurAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBlurAlert_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBlurAlert_Example/Pods-RSBlurAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				B163F13A20BC23CD00303BB0 /* wallpaper.jpg */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -251,7 +248,6 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				B163F13B20BC23CD00303BB0 /* wallpaper.jpg in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

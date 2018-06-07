@@ -21,36 +21,116 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-22-Tfo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-22-Tfo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQD-Kl-PD7">
-                                <rect key="frame" x="20" y="607" width="335" height="50"/>
+                                <rect key="frame" x="20" y="607" width="59.5" height="50"/>
                                 <color key="backgroundColor" red="0.90980392160000001" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="clC-gu-anL"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Show Alert"/>
+                                <state key="normal" title="1"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="showAlertTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p5q-pP-7wq"/>
+                                    <action selector="tapped1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="o7g-wh-I0x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clz-7W-OYM">
+                                <rect key="frame" x="89.5" y="607" width="58.5" height="50"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fkY-lF-eCU"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="2"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapped2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R2r-Wn-46S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na2-Xn-ed3">
+                                <rect key="frame" x="158" y="607" width="59.5" height="50"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gjS-Cp-8Yz"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapped3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DFn-5c-JZa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ok-Sv-5JC">
+                                <rect key="frame" x="227.5" y="607" width="58.5" height="50"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="V9X-7c-BYu"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="4"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapped4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="q1B-7W-W4T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUk-0V-9p8">
+                                <rect key="frame" x="296" y="607" width="59" height="50"/>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="YdR-pH-Azv"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="5"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapped5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JUX-QD-RvA"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Clz-7W-OYM" firstAttribute="leading" secondItem="XQD-Kl-PD7" secondAttribute="trailing" constant="10" id="63y-bH-Qqf"/>
+                            <constraint firstItem="7ok-Sv-5JC" firstAttribute="leading" secondItem="Na2-Xn-ed3" secondAttribute="trailing" constant="10" id="6M3-hZ-U8o"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7ok-Sv-5JC" secondAttribute="bottom" constant="10" id="ByV-IF-umr"/>
+                            <constraint firstItem="Na2-Xn-ed3" firstAttribute="leading" secondItem="Clz-7W-OYM" secondAttribute="trailing" constant="10" id="Fpb-Hd-uq9"/>
                             <constraint firstItem="SKe-22-Tfo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Gyi-xE-HGN"/>
+                            <constraint firstItem="XQD-Kl-PD7" firstAttribute="width" secondItem="Clz-7W-OYM" secondAttribute="width" id="LDO-k9-xEi"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="XQD-Kl-PD7" secondAttribute="bottom" constant="10" id="MGg-jO-nYm"/>
                             <constraint firstAttribute="bottom" secondItem="SKe-22-Tfo" secondAttribute="bottom" id="XgL-f7-Uek"/>
-                            <constraint firstAttribute="trailing" secondItem="XQD-Kl-PD7" secondAttribute="trailing" constant="20" id="jiB-5g-0GL"/>
+                            <constraint firstItem="Na2-Xn-ed3" firstAttribute="width" secondItem="7ok-Sv-5JC" secondAttribute="width" id="Xky-F2-kXf"/>
+                            <constraint firstItem="XQD-Kl-PD7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="cmX-nQ-w2I"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Clz-7W-OYM" secondAttribute="bottom" constant="10" id="fV2-vd-l9T"/>
+                            <constraint firstAttribute="trailing" secondItem="vUk-0V-9p8" secondAttribute="trailing" constant="20" id="jA1-ZL-9d7"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Na2-Xn-ed3" secondAttribute="bottom" constant="10" id="kzC-E6-FmL"/>
+                            <constraint firstItem="Clz-7W-OYM" firstAttribute="width" secondItem="Na2-Xn-ed3" secondAttribute="width" id="m83-sZ-kQQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vUk-0V-9p8" secondAttribute="bottom" constant="10" id="nT3-cw-z5a"/>
                             <constraint firstAttribute="trailing" secondItem="SKe-22-Tfo" secondAttribute="trailing" id="tvU-Ol-Ky9"/>
-                            <constraint firstItem="XQD-Kl-PD7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="w5U-V5-mIt"/>
                             <constraint firstItem="SKe-22-Tfo" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="xkD-xB-V6T"/>
+                            <constraint firstItem="vUk-0V-9p8" firstAttribute="leading" secondItem="7ok-Sv-5JC" secondAttribute="trailing" constant="10" id="yNc-0D-BEj"/>
+                            <constraint firstItem="7ok-Sv-5JC" firstAttribute="width" secondItem="vUk-0V-9p8" secondAttribute="width" id="zb4-xF-g9s"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -60,6 +140,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="wallpaper.jpg" width="564" height="1002"/>
+        <image name="wallpaper" width="1235" height="812"/>
     </resources>
 </document>
