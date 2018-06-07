@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = 'RSBlurAlert'
   s.version          = '0.1.0'
-  s.summary          = 'A iOS system like alert view.'
+  s.summary          = 'A macOS system like alert view for iOS.'
 
   s.description      = <<-DESC
-A iOS system like alert view which has blur background, an alert image along with a short text describing the alert.
+A macOS system like alert view which has blur background, an alert image along with a short text describing the alert. This also contains some added control such as controlling auto-hide and the display time of alert view.
                        DESC
 
   s.homepage         = 'https://github.com/therohansanap/RSBlurAlert'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://www.dropbox.com/s/cphz90gdy4frhoi/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-06-07%20at%2016.50.23.png?dl=0', 'https://www.dropbox.com/s/mqs9e4s7ukghco8/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-06-07%20at%2016.50.26.png?dl=0'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'therohansanap' => 'sanaprohan10@gmail.com' }
   s.source           = { :git => 'https://github.com/therohansanap/RSBlurAlert.git', :tag => s.version.to_s }
@@ -30,7 +30,5 @@ A iOS system like alert view which has blur background, an alert image along wit
     'RSBlurAlert' => ['RSBlurAlert/Assets/**/*.{xcassets}']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
