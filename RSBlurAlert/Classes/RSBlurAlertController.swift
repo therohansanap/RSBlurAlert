@@ -67,11 +67,6 @@ public class RSBlurAlertController: UIViewController {
         
         if let alertImage = alertImage {
             alertImageView.image = alertImage.withRenderingMode(.alwaysTemplate)
-        }else {
-            let bundle = Bundle(for: RSBlurAlertController.self)
-            if let defaultImage = UIImage(named: "default", in: bundle, compatibleWith: nil) {
-                alertImageView.image = defaultImage.withRenderingMode(.alwaysTemplate)
-            }
         }
     }
     
