@@ -20,11 +20,17 @@ public class RSBlurAlertController: UIViewController {
     @IBOutlet private weak var alertImageViewTopConstraint: NSLayoutConstraint!
     @IBOutlet private weak var detailLabelTopConstraint: NSLayoutConstraint!
     
+    /// Title for alert.
     public var alertTitle: String?
+    /// Details for alert.
     public var alertDetail: String?
+    /// Image that will be displayed for alert. It will be rendered as template.
     public var alertImage: UIImage?
+    /// Define which type of blur you want for the alert, viz., light or dark
     public var alertType = RSBlurAlertType.light
+    /// Use this property to define custom time for how much seconds your alert should be visible after which will be auto-hide.
     public var alertVisibleTime: TimeInterval?
+    /// If this property is set to false, the alert will not auto-hide and will not take custom alertVisibleTime into consideration. Tapping on the screen will dismiss the alert.
     public var autoHide = true
     
     private let defaultAlertVisibleTime: TimeInterval = 1.5

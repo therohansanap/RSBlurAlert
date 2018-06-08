@@ -11,20 +11,12 @@ import RSBlurAlert
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
-
     @IBAction func tapped1(_ sender: UIButton) {
         // This is how easy it is to configure, give it title, details and the image.
         let blurAlert = RSBlurAlertController()
         blurAlert.alertTitle = "Attention"
         blurAlert.alertDetail = "Describe the alert to the user using this so that user gets some idea."
-//        blurAlert.alertImage = UIImage(named: "warning")
+        blurAlert.alertImage = UIImage(named: "warning")
         present(blurAlert, animated: false, completion: nil)
     }
     
