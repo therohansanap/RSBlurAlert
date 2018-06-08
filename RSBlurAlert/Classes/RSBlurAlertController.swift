@@ -54,6 +54,10 @@ public class RSBlurAlertController: UIViewController {
         setContent()
         setConstraints()
         setUIAccordingToAlertType()
+    }
+    
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         setAccordingToAutoHide()
     }
     
@@ -97,14 +101,15 @@ public class RSBlurAlertController: UIViewController {
     
     private func setAccordingToAutoHide() {
         if autoHide {
-            Timer.scheduledTimer(withTimeInterval: alertVisibleTime ?? defaultAlertVisibleTime, repeats: false, block: dismissAlert(_:))
+            let interval = alertVisibleTime ?? defaultAlertVisibleTime
+            DispatchQueue.main.asyncAfter(deadline: .now() + fabs(interval), execute: dismissAlert)
         }else {
-            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissAlert(_:)))
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissAlert))
             view.addGestureRecognizer(tapGesture)
         }
     }
     
-    @objc private func dismissAlert(_ timer: Timer?) {
+    @objc private func dismissAlert() {
         UIView.animate(withDuration: 0.5, animations: { [weak self] in
             self?.view.alpha = 0
         }, completion: { [weak self] (completion) in

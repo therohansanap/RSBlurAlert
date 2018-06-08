@@ -31,13 +31,12 @@ class ViewController: UIViewController {
     @IBAction func tapped2(_ sender: UIButton) {
         // Works perfect without a title and with just details
         let blurAlert = RSBlurAlertController()
-        blurAlert.alertDetail = "A revan has arrived from King's Landing"
+        blurAlert.alertDetail = "A revan has arrived from King's Landing. This alert will self dismiss in customised 5 seconds."
         blurAlert.alertImage = UIImage(named: "message")
         
         /* The display time of this alert is also customisable. Say in case your details are longer
             and you want to give user time to read it. */
-        
-        // blurAlert.alertVisibleTime = 3
+        blurAlert.alertVisibleTime = 5
         
         present(blurAlert, animated: false, completion: nil)
     }
@@ -52,8 +51,13 @@ class ViewController: UIViewController {
     @IBAction func tapped4(_ sender: UIButton) {
         // Works perfect with just a title
         let blurAlert = RSBlurAlertController()
-        blurAlert.alertTitle = "You win!"
+        blurAlert.alertTitle = "You win! Tap me to hide"
         blurAlert.alertImage = UIImage(named: "cup")
+        
+        /* If you don't want the alert to hide automatically then you can switch off autoHide.
+            User tap of the screen be required to hide it if this is turned off. */
+        blurAlert.autoHide = false
+        
         present(blurAlert, animated: false, completion: nil)
     }
     
