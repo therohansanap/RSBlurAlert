@@ -25,10 +25,6 @@
   },
   "swift_version": "4.0",
   "source_files": "RSBlurAlert/Classes/**/*",
-  "resource_bundles": {
-    "RSBlurAlert": [
-      "RSBlurAlert/Assets/**/*.{xcassets}"
-    ]
-  },
+  "resources": "RSBlurAlert/Assets/**/*.{xcassets}",
   "frameworks": "UIKit"
 }
