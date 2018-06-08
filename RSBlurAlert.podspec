@@ -22,7 +22,7 @@ A macOS system like alert view which has blur background, an alert image along w
   s.source           = { :git => 'https://github.com/therohansanap/RSBlurAlert.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/therohansanap'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
 
   s.source_files = 'RSBlurAlert/Classes/**/*'
