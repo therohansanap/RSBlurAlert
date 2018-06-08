@@ -18,7 +18,7 @@ A macOS system like alert view which has blur background, an alert image along w
   s.homepage         = 'https://github.com/therohansanap/RSBlurAlert'
   s.screenshots      = 'https://image.ibb.co/b972TT/Simulator_Screen_Shot_i_Phone_X_2018_06_07_at_16_50_23.png', 'https://image.ibb.co/dgwJ2o/Simulator_Screen_Shot_i_Phone_X_2018_06_07_at_16_50_26.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'therohansanap' => 'sanaprohan10@gmail.com' }
+  s.author           = { 'Rohan Sanap' => 'sanaprohan10@gmail.com' }
   s.source           = { :git => 'https://github.com/therohansanap/RSBlurAlert.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/therohansanap'
 
