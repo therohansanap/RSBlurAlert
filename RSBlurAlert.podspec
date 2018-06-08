@@ -26,7 +26,5 @@ A macOS system like alert view which has blur background, an alert image along w
   s.swift_version = '4.0'
 
   s.source_files = 'RSBlurAlert/Classes/**/*'
-  s.resource = 'RSBlurAlert/Assets/**/*.{xcassets}'
-
   s.frameworks = 'UIKit'
 end
