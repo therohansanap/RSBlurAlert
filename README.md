@@ -20,13 +20,48 @@ it, simply add the following line to your Podfile:
 pod 'RSBlurAlert'
 ```
 
+## Usage
+
+Import the module in file where you wish to use this alert:
+```
+import RSBlurAlert
+```
+After that initialize  it and simply set it's properties.
+```
+let blurAlert = RSBlurAlertController()
+blurAlert.alertTitle = "Attention"
+blurAlert.alertDetail = "Describe the alert to the user using this so that user gets some idea."
+blurAlert.alertImage = UIImage(named: "warning")
+```
+Along with this you can also use various customization options:
+
+• This propety will help you keep the alert visible for customized time in seconds if you require so.
+```
+blurAlert.alertVisibleTime = 5
+```
+
+• This property will help you switch off the auto-hiding feature. If set to false, alert will be dismissed by user's tap on screen.
+```
+blurAlert.autoHide = false
+```
+
+• Presenting alert is as simple as presenting any view controller. Just present is without animation:
+```
+present(blurAlert, animated: false, completion: nil)
+```
+
+### **Note:**
+None of the above mentioned properties are compulsory or required. They are optional. Defaults are set to give enough functionality. I highly encourage to download the repo and have a look at Example project. All possibilites and features are describes there in easiest of context.
+
 ## Author
 
 Rohan Sanap, sanaprohan10@gmail.com
 
+Twitter - [@therohansanap](https://twitter.com/TheRohanSanap)
+
 ### Credit where it's due
 
-I started learning to make reusable frameworks and how to distribute them via Cocoapods. I stumbled upon following article - https://medium.com/flawless-app-stories/getting-started-with-reusable-frameworks-for-ios-development-f00d74827d11
+I started learning to make reusable frameworks and how to distribute them via Cocoapods. I stumbled upon following [article](https://medium.com/flawless-app-stories/getting-started-with-reusable-frameworks-for-ios-development-f00d74827d11).
 
 This article is where my Idea came from. I decided to implement the same UI but with completely different approach and with alot of customization capabilites and hence RSBlurAlert was born
 
