@@ -78,12 +78,16 @@ public class RSBlurAlertController: UIViewController {
 //            let defaultImage = UIImage(named: "default", in: bundle, compatibleWith: nil)
 //            alertImageView.image = defaultImage
             
-            let podBundle = Bundle(for: RSBlurAlertController.self)
-            if let url = podBundle.url(forResource: "RSBlurAlert", withExtension: "bundle") {
-                let mykitBundle = Bundle(url: url)
-                let retrivedImage = UIImage(named: "default", in: mykitBundle, compatibleWith: nil)
-                alertImageView.image = retrivedImage
-            }
+//            let podBundle = Bundle(for: RSBlurAlertController.self)
+//            if let url = podBundle.url(forResource: "RSBlurAlert", withExtension: "bundle") {
+//                let mykitBundle = Bundle(url: url)
+//                let retrivedImage = UIImage(named: "default", in: mykitBundle, compatibleWith: nil)
+//                alertImageView.image = retrivedImage
+//            }
+            
+            let bundle = Bundle(for: RSBlurAlertController.self)
+            let defaultImage = UIImage(named: "test", in: bundle, compatibleWith: nil)
+            alertImageView.image = defaultImage
         }
     }
     
