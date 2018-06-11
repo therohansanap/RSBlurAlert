@@ -50,7 +50,9 @@ blurAlert.autoHide = false
 present(blurAlert, animated: false, completion: nil)
 ```
 
-### **Note:**
+• **Image Size:** The alert image that you want to use should have ideal size of 130 X 130 @1x and scale accordingly. If you have access to only horizotally rectangualr or vertically rectangular image, don't worry, the content mode of image view is 'Aspect Fit' hence your image will never get cropped.
+
+**Note:**
 None of the above mentioned properties are compulsory or required. They are optional. Defaults are set to give enough functionality. I highly encourage to download the repo and have a look at Example project. All possibilites and features are describes there in easiest of context.
 
 ## Author
