@@ -1,5 +1,5 @@
 PODS:
-  - RSBlurAlert (1.0.0)
+  - RSBlurAlert (1.1.0)
 
 DEPENDENCIES:
   - RSBlurAlert (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RSBlurAlert: 55652491ca118c8bd6387515e5af883585ea3d09
+  RSBlurAlert: 2fab027e3f23f75fcf3e214822a9eadf5f763bd9
 
 PODFILE CHECKSUM: 54e01f362c32f8f326a333a4b5222804981c3aea
 

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let blurAlert = RSBlurAlertController()
         blurAlert.alertTitle = "Attention"
         blurAlert.alertDetail = "Describe the alert to the user using this so that user gets some idea."
-        blurAlert.alertImage = UIImage(named: "warning")
+//        blurAlert.alertImage = UIImage(named: "warning")
         present(blurAlert, animated: false, completion: nil)
     }
     
