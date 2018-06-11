@@ -43,6 +43,7 @@
 		10A184AE60FA4FAA27F06BFDF44D5BA6 /* Pods-RSBlurAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBlurAlert_Tests-resources.sh"; sourceTree = "<group>"; };
 		12CFB2829EA3F6BCB89E22BAD4ACA9B2 /* Pods-RSBlurAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBlurAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
 		19CF02DC46F548A27D348BAE7EB5D13D /* Pods-RSBlurAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBlurAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1CA2DAEF20CED2A300A58289 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		2E89D51FD3D0C822D9FC798C57C93758 /* Pods-RSBlurAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSBlurAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F64C62E49C725887ABC9601BAAF5683 /* RSBlurAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSBlurAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6B3F50C7F88A029C9189C7C6F36071 /* Pods-RSBlurAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBlurAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +117,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		1CA2DAEE20CED2A300A58289 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1CA2DAEF20CED2A300A58289 /* test.png */,
+			);
+			name = images;
+			path = RSBlurAlert/images;
+			sourceTree = "<group>";
+		};
 		2EF9B0E27A7D935C302114EEC3F50D5E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 			children = (
 				81312025516A12E0C35C41950912D4D4 /* RSBlurAlertController.swift */,
 				DB607A0EBE1B140A6B1741CF885266BA /* RSBlurAlertController.xib */,
+				1CA2DAEE20CED2A300A58289 /* images */,
 				2EF9B0E27A7D935C302114EEC3F50D5E /* Pod */,
 				6E80127956DE437F6A1D93F92693C6F2 /* Support Files */,
 			);
